@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Main from "./components/Main";
+import "./App.css";
 
 function App() {
+  let [age, setAge] = useState(20);
+  let [name] = useState("Marc");
+
+  const getOld = () => setAge(age + 1);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hey from App.js</h1>
+      <p>
+        In App.js we are not doing anything special, just defining the state and
+        rendering a child component that is Main. Main receives props
+      </p>
+      <hr />
+      <Main age={age} name={name} getOld={getOld} />
     </div>
   );
 }
