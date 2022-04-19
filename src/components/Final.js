@@ -5,9 +5,9 @@ const Final = (props) => (
       This is the final component, this guy receives props all the way from
       App.js
     </p>
-    <h4>The name is: {props.name}</h4>
+    {/* <h4>The name is: {props.name}</h4>
     <p>The age value is: {props.age}</p>
-    <button onClick={props.getOld}>Get older!</button>
+    <button onClick={props.getOld}>Get older!</button> */}
   </>
 );
 

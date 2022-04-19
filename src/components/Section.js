@@ -8,7 +8,7 @@ const Section = (props) => (
       purpose, to receive props and pass props down to the child component!
     </p>
     <hr />
-    <Final age={props.age} name={props.name} getOld={props.getOld} />
+    <Final />
   </>
 );
 

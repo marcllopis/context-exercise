@@ -9,7 +9,7 @@ const Main = (props) => (
       component
     </p>
     <hr />
-    <Section age={props.age} name={props.name} getOld={props.getOld} />
+    <Section />
   </>
 );
 
