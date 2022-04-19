@@ -1,6 +1,6 @@
 import Final from "./Final";
 
-const Section = (props) => (
+const Section = () => (
   <>
     <h2>This is Section.js</h2>
     <p>

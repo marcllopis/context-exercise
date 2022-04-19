@@ -1,6 +1,6 @@
 import Section from "./Section";
 
-const Main = (props) => (
+const Main = () => (
   <>
     <h2>This is Main.js</h2>
     <p>
